@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5FB54D1153C7C280079AF09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB54D0153C7C280079AF09 /* UIKit.framework */; };
+		F5FB54D3153C7C280079AF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB54D2153C7C280079AF09 /* Foundation.framework */; };
+		F5FB54D5153C7C280079AF09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB54D4153C7C280079AF09 /* CoreGraphics.framework */; };
+		F5FB54DB153C7C280079AF09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5FB54D9153C7C280079AF09 /* InfoPlist.strings */; };
+		F5FB54DD153C7C280079AF09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB54DC153C7C280079AF09 /* main.m */; };
+		F5FB54E1153C7C280079AF09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB54E0153C7C280079AF09 /* AppDelegate.m */; };
+		F5FB54E4153C7C280079AF09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB54E3153C7C280079AF09 /* ViewController.m */; };
+		F5FB54E7153C7C280079AF09 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5FB54E5153C7C280079AF09 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5FB54CC153C7C280079AF09 /* testQuartz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testQuartz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5FB54D0153C7C280079AF09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5FB54D2153C7C280079AF09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5FB54D4153C7C280079AF09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5FB54D8153C7C280079AF09 /* testQuartz-Info.plist */ = {isa = PBXFileReference; path = "testQuartz-Info.plist"; sourceTree = "<group>"; };
+		F5FB54DA153C7C280079AF09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5FB54DC153C7C280079AF09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5FB54DE153C7C280079AF09 /* testQuartz-Prefix.pch */ = {isa = PBXFileReference; path = "testQuartz-Prefix.pch"; sourceTree = "<group>"; };
+		F5FB54DF153C7C280079AF09 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5FB54E0153C7C280079AF09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5FB54E2153C7C280079AF09 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F5FB54E3153C7C280079AF09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5FB54E6153C7C280079AF09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5FB54C9153C7C280079AF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FB54D1153C7C280079AF09 /* UIKit.framework in Frameworks */,
+				F5FB54D3153C7C280079AF09 /* Foundation.framework in Frameworks */,
+				F5FB54D5153C7C280079AF09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5FB54C1153C7C280079AF09 = {
+			isa = PBXGroup;
+			children = (
+				F5FB54D6153C7C280079AF09 /* testQuartz */,
+				F5FB54CF153C7C280079AF09 /* Frameworks */,
+				F5FB54CD153C7C280079AF09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5FB54CD153C7C280079AF09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB54CC153C7C280079AF09 /* testQuartz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5FB54CF153C7C280079AF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB54D0153C7C280079AF09 /* UIKit.framework */,
+				F5FB54D2153C7C280079AF09 /* Foundation.framework */,
+				F5FB54D4153C7C280079AF09 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5FB54D6153C7C280079AF09 /* testQuartz */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB54DF153C7C280079AF09 /* AppDelegate.h */,
+				F5FB54E0153C7C280079AF09 /* AppDelegate.m */,
+				F5FB54E2153C7C280079AF09 /* ViewController.h */,
+				F5FB54E3153C7C280079AF09 /* ViewController.m */,
+				F5FB54E5153C7C280079AF09 /* ViewController.xib */,
+				F5FB54D7153C7C280079AF09 /* Supporting Files */,
+			);
+			path = testQuartz;
+			sourceTree = "<group>";
+		};
+		F5FB54D7153C7C280079AF09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB54D8153C7C280079AF09 /* testQuartz-Info.plist */,
+				F5FB54D9153C7C280079AF09 /* InfoPlist.strings */,
+				F5FB54DC153C7C280079AF09 /* main.m */,
+				F5FB54DE153C7C280079AF09 /* testQuartz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5FB54CB153C7C280079AF09 /* testQuartz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5FB54EA153C7C280079AF09 /* Build configuration list for PBXNativeTarget "testQuartz" */;
+			buildPhases = (
+				F5FB54C8153C7C280079AF09 /* Sources */,
+				F5FB54C9153C7C280079AF09 /* Frameworks */,
+				F5FB54CA153C7C280079AF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testQuartz;
+			productName = testQuartz;
+			productReference = F5FB54CC153C7C280079AF09 /* testQuartz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5FB54C3153C7C280079AF09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F5FB54C6153C7C280079AF09 /* Build configuration list for PBXProject "testQuartz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5FB54C1153C7C280079AF09;
+			productRefGroup = F5FB54CD153C7C280079AF09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5FB54CB153C7C280079AF09 /* testQuartz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5FB54CA153C7C280079AF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FB54DB153C7C280079AF09 /* InfoPlist.strings in Resources */,
+				F5FB54E7153C7C280079AF09 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5FB54C8153C7C280079AF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5FB54DD153C7C280079AF09 /* main.m in Sources */,
+				F5FB54E1153C7C280079AF09 /* AppDelegate.m in Sources */,
+				F5FB54E4153C7C280079AF09 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5FB54D9153C7C280079AF09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FB54DA153C7C280079AF09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5FB54E5153C7C280079AF09 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5FB54E6153C7C280079AF09 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5FB54E8153C7C280079AF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F5FB54E9153C7C280079AF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5FB54EB153C7C280079AF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testQuartz/testQuartz-Prefix.pch";
+				INFOPLIST_FILE = "testQuartz/testQuartz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5FB54EC153C7C280079AF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testQuartz/testQuartz-Prefix.pch";
+				INFOPLIST_FILE = "testQuartz/testQuartz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5FB54C6153C7C280079AF09 /* Build configuration list for PBXProject "testQuartz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FB54E8153C7C280079AF09 /* Debug */,
+				F5FB54E9153C7C280079AF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5FB54EA153C7C280079AF09 /* Build configuration list for PBXNativeTarget "testQuartz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5FB54EB153C7C280079AF09 /* Debug */,
+				F5FB54EC153C7C280079AF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5FB54C3153C7C280079AF09 /* Project object */;
+}
