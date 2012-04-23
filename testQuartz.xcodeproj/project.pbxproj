@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50815EB154056F4001313D5 /* QuartzLineGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = F50815EA154056F4001313D5 /* QuartzLineGraph.m */; };
+		F50815EF15406D0E001313D5 /* LoadGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = F50815EE15406D0E001313D5 /* LoadGraph.m */; };
+		F508162515408CB9001313D5 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F508162315408CB9001313D5 /* ViewController_iPhone.xib */; };
+		F508162615408CB9001313D5 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F508162415408CB9001313D5 /* ViewController_iPad.xib */; };
+		F57397901545AB58002EE5C6 /* QuartzChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F573978F1545AB58002EE5C6 /* QuartzChart.m */; };
+		F57D390F1541F35000360700 /* chart_line.png in Resources */ = {isa = PBXBuildFile; fileRef = F57D390E1541F35000360700 /* chart_line.png */; };
+		F57D39121541F3D200360700 /* chart_line_reg.png in Resources */ = {isa = PBXBuildFile; fileRef = F57D39111541F3D200360700 /* chart_line_reg.png */; };
+		F57D39151541F48500360700 /* QuartzChartAxes.m in Sources */ = {isa = PBXBuildFile; fileRef = F57D39141541F48500360700 /* QuartzChartAxes.m */; };
 		F5FB54D1153C7C280079AF09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB54D0153C7C280079AF09 /* UIKit.framework */; };
 		F5FB54D3153C7C280079AF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB54D2153C7C280079AF09 /* Foundation.framework */; };
 		F5FB54D5153C7C280079AF09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB54D4153C7C280079AF09 /* CoreGraphics.framework */; };
@@ -14,23 +22,36 @@
 		F5FB54DD153C7C280079AF09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB54DC153C7C280079AF09 /* main.m */; };
 		F5FB54E1153C7C280079AF09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB54E0153C7C280079AF09 /* AppDelegate.m */; };
 		F5FB54E4153C7C280079AF09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB54E3153C7C280079AF09 /* ViewController.m */; };
-		F5FB54E7153C7C280079AF09 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5FB54E5153C7C280079AF09 /* ViewController.xib */; };
+		F5FB54EF153C7C9E0079AF09 /* TestQuartzDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FB54EE153C7C9E0079AF09 /* TestQuartzDrawing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F50815E9154056F4001313D5 /* QuartzLineGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzLineGraph.h; sourceTree = "<group>"; };
+		F50815EA154056F4001313D5 /* QuartzLineGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzLineGraph.m; sourceTree = "<group>"; };
+		F50815ED15406D0E001313D5 /* LoadGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGraph.h; sourceTree = "<group>"; };
+		F50815EE15406D0E001313D5 /* LoadGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadGraph.m; sourceTree = "<group>"; };
+		F508162315408CB9001313D5 /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F508162415408CB9001313D5 /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		F573978E1545AB58002EE5C6 /* QuartzChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzChart.h; sourceTree = "<group>"; };
+		F573978F1545AB58002EE5C6 /* QuartzChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzChart.m; sourceTree = "<group>"; };
+		F57D390E1541F35000360700 /* chart_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart_line.png; sourceTree = "<group>"; };
+		F57D39111541F3D200360700 /* chart_line_reg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chart_line_reg.png; sourceTree = "<group>"; };
+		F57D39131541F48500360700 /* QuartzChartAxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzChartAxes.h; sourceTree = "<group>"; };
+		F57D39141541F48500360700 /* QuartzChartAxes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzChartAxes.m; sourceTree = "<group>"; };
 		F5FB54CC153C7C280079AF09 /* testQuartz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testQuartz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FB54D0153C7C280079AF09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5FB54D2153C7C280079AF09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F5FB54D4153C7C280079AF09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F5FB54D8153C7C280079AF09 /* testQuartz-Info.plist */ = {isa = PBXFileReference; path = "testQuartz-Info.plist"; sourceTree = "<group>"; };
+		F5FB54D8153C7C280079AF09 /* testQuartz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testQuartz-Info.plist"; sourceTree = "<group>"; };
 		F5FB54DA153C7C280079AF09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5FB54DC153C7C280079AF09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F5FB54DE153C7C280079AF09 /* testQuartz-Prefix.pch */ = {isa = PBXFileReference; path = "testQuartz-Prefix.pch"; sourceTree = "<group>"; };
-		F5FB54DF153C7C280079AF09 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5FB54DE153C7C280079AF09 /* testQuartz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testQuartz-Prefix.pch"; sourceTree = "<group>"; };
+		F5FB54DF153C7C280079AF09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5FB54E0153C7C280079AF09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5FB54E2153C7C280079AF09 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F5FB54E2153C7C280079AF09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F5FB54E3153C7C280079AF09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F5FB54E6153C7C280079AF09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F5FB54ED153C7C9E0079AF09 /* TestQuartzDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestQuartzDrawing.h; sourceTree = "<group>"; };
+		F5FB54EE153C7C9E0079AF09 /* TestQuartzDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestQuartzDrawing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +71,8 @@
 		F5FB54C1153C7C280079AF09 = {
 			isa = PBXGroup;
 			children = (
+				F57D39111541F3D200360700 /* chart_line_reg.png */,
+				F57D390E1541F35000360700 /* chart_line.png */,
 				F5FB54D6153C7C280079AF09 /* testQuartz */,
 				F5FB54CF153C7C280079AF09 /* Frameworks */,
 				F5FB54CD153C7C280079AF09 /* Products */,
@@ -81,7 +104,18 @@
 				F5FB54E0153C7C280079AF09 /* AppDelegate.m */,
 				F5FB54E2153C7C280079AF09 /* ViewController.h */,
 				F5FB54E3153C7C280079AF09 /* ViewController.m */,
-				F5FB54E5153C7C280079AF09 /* ViewController.xib */,
+				F573978E1545AB58002EE5C6 /* QuartzChart.h */,
+				F573978F1545AB58002EE5C6 /* QuartzChart.m */,
+				F50815E9154056F4001313D5 /* QuartzLineGraph.h */,
+				F50815EA154056F4001313D5 /* QuartzLineGraph.m */,
+				F57D39131541F48500360700 /* QuartzChartAxes.h */,
+				F57D39141541F48500360700 /* QuartzChartAxes.m */,
+				F50815ED15406D0E001313D5 /* LoadGraph.h */,
+				F50815EE15406D0E001313D5 /* LoadGraph.m */,
+				F5FB54ED153C7C9E0079AF09 /* TestQuartzDrawing.h */,
+				F5FB54EE153C7C9E0079AF09 /* TestQuartzDrawing.m */,
+				F508162315408CB9001313D5 /* ViewController_iPhone.xib */,
+				F508162415408CB9001313D5 /* ViewController_iPad.xib */,
 				F5FB54D7153C7C280079AF09 /* Supporting Files */,
 			);
 			path = testQuartz;
@@ -149,7 +183,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5FB54DB153C7C280079AF09 /* InfoPlist.strings in Resources */,
-				F5FB54E7153C7C280079AF09 /* ViewController.xib in Resources */,
+				F508162515408CB9001313D5 /* ViewController_iPhone.xib in Resources */,
+				F508162615408CB9001313D5 /* ViewController_iPad.xib in Resources */,
+				F57D390F1541F35000360700 /* chart_line.png in Resources */,
+				F57D39121541F3D200360700 /* chart_line_reg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +200,11 @@
 				F5FB54DD153C7C280079AF09 /* main.m in Sources */,
 				F5FB54E1153C7C280079AF09 /* AppDelegate.m in Sources */,
 				F5FB54E4153C7C280079AF09 /* ViewController.m in Sources */,
+				F5FB54EF153C7C9E0079AF09 /* TestQuartzDrawing.m in Sources */,
+				F50815EB154056F4001313D5 /* QuartzLineGraph.m in Sources */,
+				F50815EF15406D0E001313D5 /* LoadGraph.m in Sources */,
+				F57D39151541F48500360700 /* QuartzChartAxes.m in Sources */,
+				F57397901545AB58002EE5C6 /* QuartzChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +217,6 @@
 				F5FB54DA153C7C280079AF09 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F5FB54E5153C7C280079AF09 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5FB54E6153C7C280079AF09 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -242,6 +276,7 @@
 				GCC_PREFIX_HEADER = "testQuartz/testQuartz-Prefix.pch";
 				INFOPLIST_FILE = "testQuartz/testQuartz-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -253,6 +288,7 @@
 				GCC_PREFIX_HEADER = "testQuartz/testQuartz-Prefix.pch";
 				INFOPLIST_FILE = "testQuartz/testQuartz-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -276,6 +312,7 @@
 				F5FB54EC153C7C280079AF09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
