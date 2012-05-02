@@ -18,25 +18,30 @@
     float sizeOfPoints;
     BOOL isScatterPlot;
     NSMutableArray *currentDataArray;
+    NSMutableArray *replacmentDataArray;
     
     @private
-    NSArray *initialDataArray;
-    NSArray *replacmentDataArray;
+    NSArray *__unsafe_unretained initialDataArray;
+    CGRect paddingInside;
     int transitionCount;
     NSTimer *transitionTimer;
+    int paddingAmount;
 
 }
 	
-@property (nonatomic, strong) NSArray *initialDataArray;
+@property (unsafe_unretained, nonatomic) NSArray *initialDataArray;
 @property (nonatomic, readonly) NSMutableArray *currentDataArray;
-@property (nonatomic, strong) NSArray *replacmentDataArray;
-@property (nonatomic, strong) UIColor *lineColor;
+@property (nonatomic) NSMutableArray *replacmentDataArray;
+@property (nonatomic) UIColor *lineColor;
 @property (nonatomic, assign) int resolution;
 @property (nonatomic, assign) float intervalOfTransition;
 @property (nonatomic, assign) BOOL withPoints;
 @property (nonatomic, assign) float sizeOfPoints;
 @property (nonatomic, assign) BOOL isScatterPlot;
+@property (nonatomic, assign) int paddingAmount;
+@property (nonatomic, assign) CGRect paddingInside;
 
++ (CGColorRef) getRandomColor;
 - (id)initWithFrame:(CGRect)frame andDataSet:(NSArray *)dataset;
 - (void)loadNewDataSet:(NSArray *)dataset;
 - (id)initWithFrame:(CGRect)frame andDataSet:(NSArray *)dataset withAxes:(BOOL)includeAxes;
@@ -45,8 +50,6 @@
 
 @interface QuartzLineGraph (private)
 
-@property (nonatomic, readwrite) NSMutableArray *currentDataArray;
-
-- (UIColor *) getRandomColor;
+@property (nonatomic, retain) NSMutableArray *currentDataArray;
 
 @end

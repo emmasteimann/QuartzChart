@@ -26,6 +26,7 @@
 + (NSArray *)getRandomPoints:(int)numberOfPoints withBounds:(CGRect)chartBounds;
 
 - (void)loadRandomData;
+- (void)loadRandomDataWithBounds:(CGRect)bounds;
 
 @end
 

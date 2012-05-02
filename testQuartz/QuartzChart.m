@@ -38,7 +38,7 @@
     
     NSArray *newChartArray = [[NSArray alloc] initWithArray:arrayOfCharts];
     
-    return [[QuartzChart alloc] initWithFrame:chartBounds withChartArray:newChartArray];;
+    return [[QuartzChart alloc] initWithFrame:chartBounds withChartArray:newChartArray];
 }
 
     /* The following method is used to create a single
@@ -92,7 +92,7 @@
     if (self) {
         [self setCurrentChartArray:_newChartArray];
         
-        includeAxes = YES;
+        includeAxes = NO;
         if (includeAxes){
             [self loadAxes];
         }
@@ -151,9 +151,18 @@
 //}
 - (void)loadRandomData {
     
+    NSLog(@"Loading Random Data");
+    
+    [self loadRandomDataWithBounds:self.frame];
+    
+}
+- (void)loadRandomDataWithBounds:(CGRect)bounds {
+    
     for(QuartzLineGraph *currentLineGraph in currentChartArray){
         
-        [currentLineGraph loadNewDataSet:[QuartzChart getRandomPoints:20 withBounds:self.frame]];
+        int currentArrayLength = [currentLineGraph.currentDataArray count];
+        
+        [currentLineGraph loadNewDataSet:[QuartzChart getRandomPoints:currentArrayLength withBounds:bounds]];
         
     }
     
